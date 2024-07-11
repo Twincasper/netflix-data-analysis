@@ -1,5 +1,3 @@
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Twincasper/netflix-data-analysis/blob/main/notebook.ipynb)
-
 <center><img src="redpopcorn.jpg"></center>
 
 
@@ -158,5 +156,4 @@ print(top_pairs)
 
 
     [(('Robb Wells', 'John Dunsworth'), 9), (('John Paul Tremblay', 'John Dunsworth'), 9), (('Laura Bailey', 'Erin Fitzgerald'), 8), (('Junko Takeuchi', 'Chie Nakamura'), 8), (('John Paul Tremblay', 'Robb Wells'), 8), (('Takahiro Sakurai', 'Yuki Kaji'), 7), (('Kate Higgins', 'Salli Saffioti'), 7), (('Eric Idle', 'Terry Jones'), 7), (('Eric Idle', 'Michael Palin'), 7), (('Terry Jones', 'Michael Palin'), 7)]
-
 
