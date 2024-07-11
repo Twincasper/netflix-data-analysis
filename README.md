@@ -14,6 +14,8 @@ netflix_df = pd.read_csv("netflix_data.csv")
 
 
 ```python
+# Distribution of the duration of movies in the 90s
+
 netflix_subset = netflix_df[netflix_df["type"] == "Movie"]
 
 subset = netflix_subset[(netflix_subset["release_year"] >= 1990)]
@@ -27,6 +29,8 @@ plt.ylabel('Number of Movies')
 plt.show()
 
 duration = 100
+
+# Now, specifically 90s actions movies. Even the corny ones.
 
 action_movies_1990s = movies_1990s[movies_1990s["genre"] == "Action"]
 
@@ -137,6 +141,10 @@ print(top_pairs)
 
 
 
+    
+![png](notebook_files/notebook_2_4.png)
+    
+
 
     Raúl Campos, Jan Suter    18
     Marcus Raboy              15
@@ -158,5 +166,3 @@ print(top_pairs)
 
 
     [(('Robb Wells', 'John Dunsworth'), 9), (('John Paul Tremblay', 'John Dunsworth'), 9), (('Laura Bailey', 'Erin Fitzgerald'), 8), (('Junko Takeuchi', 'Chie Nakamura'), 8), (('John Paul Tremblay', 'Robb Wells'), 8), (('Takahiro Sakurai', 'Yuki Kaji'), 7), (('Kate Higgins', 'Salli Saffioti'), 7), (('Eric Idle', 'Terry Jones'), 7), (('Eric Idle', 'Michael Palin'), 7), (('Terry Jones', 'Michael Palin'), 7)]
-
-

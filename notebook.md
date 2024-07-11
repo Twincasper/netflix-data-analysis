@@ -12,6 +12,8 @@ netflix_df = pd.read_csv("netflix_data.csv")
 
 
 ```python
+# Distribution of the duration of movies in the 90s
+
 netflix_subset = netflix_df[netflix_df["type"] == "Movie"]
 
 subset = netflix_subset[(netflix_subset["release_year"] >= 1990)]
@@ -25,6 +27,8 @@ plt.ylabel('Number of Movies')
 plt.show()
 
 duration = 100
+
+# Now, specifically 90s actions movies. Even the corny ones.
 
 action_movies_1990s = movies_1990s[movies_1990s["genre"] == "Action"]
 
@@ -134,6 +138,10 @@ print(top_pairs)
     
 
 
+
+    
+![png](notebook_files/notebook_2_4.png)
+    
 
 
     Raúl Campos, Jan Suter    18
